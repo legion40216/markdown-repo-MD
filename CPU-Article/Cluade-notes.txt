@@ -1,0 +1,145 @@
+Great question. What you're really asking is: how do I deconstruct a well-written explainer article so I can replicate its skeleton for any topic? Here's how to think about it.
+Step 1: Strip it down to its bones
+Ignore the content entirely and just look at the moves the writer makes:
+
+Opens with a concrete, specific fact (the 8.805 GHz record)
+Establishes the current "best case" baseline (IBM zEC12 at 5.5 GHz)
+States the central claim/question clearly ("with current tech, 1 THz is impossible")
+Lists the reasons why with subheadings
+Ends with a forward-looking "what if" paragraph
+
+That's your reusable skeleton. Hook → Baseline → Claim → Why → Future. You can drop any topic into this.
+Step 2: Work backwards from the claim
+Pick your topic, then ask: what's the most extreme version of this thing, and why can't we reach it yet? That tension — where we are vs. where we can't go — is the whole article.
+Step 3: What to reference when you have little data
+You don't need much if you source smartly:
+
+Wikipedia — for baseline numbers (speeds, sizes, dates, records)
+Britannica — more reliable for foundational explanations
+HowStuffWorks — great for breaking down mechanisms plainly
+Scientific American — accessible but credible for "future" sections
+Guinness World Records — for the hook (records, extremes)
+
+The trick is: one strong specific number beats three vague claims. The 8.805 GHz detail is what makes that article feel credible. Find your equivalent of that number first, and everything else builds around it.
+Step 4: Fake the depth with structure
+When you don't have much data, structure does the heavy lifting. Three subheadings with even one solid point each reads as authoritative. Readers perceive organized writing as more researched than it might actually be.
+Want me to run through this with a specific topic you have in mind so you can see it applied?
+
+---
+
+Here's the more general method:
+The actual skill is asking "what job is this paragraph doing?"
+Go through any article and label each paragraph with a function, not a topic. Things like:
+
+"establishes stakes" / "why should I care"
+"grounds the reader in reality"
+"introduces the obstacle"
+"gives evidence"
+"pre-empts a counterargument"
+"opens the door to uncertainty"
+
+Once you label every paragraph by function, you'll see that the content is interchangeable but the functions repeat across almost every good explainer. You're basically extracting the underlying logic of persuasion, not the surface structure.
+
+---
+
+Then when you go to write your own piece:
+You don't copy the sequence. You ask "what functions does my reader need, and in what order?" That'll naturally vary by topic.
+For low-data situations specifically, the functions you almost always need are:
+
+One thing that makes the reader feel the scale of the topic
+One honest acknowledgment of what we don't know
+One concrete anchor (a number, a name, an event)
+
+Those three can hold up a short article on almost nothing.
+The real reference for this kind of thinking isn't another article — it's looking up "rhetorical moves in academic writing" or "They Say / I Say" by Graff and Birkenstein. That book literally catalogs the functional moves writers make, which is exactly what you're after.
+
+---
+What I actually did when I read that article:
+I noticed it answered two questions back to back — "how far have we gotten?" and "why can't we go further?" That's it. Everything else just fills those two questions out.
+
+---
+If I had to write something similar from scratch with no data:
+I'd start by Googling the most extreme version of the thing — in that article it was the overclocking record. That one search alone gave the writer the hook, a specific number, and proof that people have already pushed limits. One search, multiple uses.
+Then I'd Google "why can't [thing] go further" or "limits of [technology]" — that surfaces the obstacle list, which became the bullet points in that article.
+That's genuinely two searches. The writer didn't start with knowledge, they started with a question and let the sources hand them the structure.
+What I should have told you from the start:
+Don't reverse engineer the article's shape. Reverse engineer the two or three questions it's answering. Because those questions are what you can actually reuse. The shape just followed naturally from answering them in order.
+So the real method is: find the sharpest version of your topic, identify the gap between where things are and where they can't go, then Google your way into filling that gap. The article writes itself from there.
+
+---
+Right, so once you have your sources in front of you, the process is:
+Read it, then close it.
+Seriously. Read the article, close the tab, then write what you remember. What you naturally retain is usually the most important point anyway. What you write from memory will come out in your own words by default.
+What you're actually extracting from any source is:
+
+The fact or number (you just reference it, not copy it)
+The concept behind it (which you re-explain in your own logic)
+The implication (which is your own thinking anyway)
+
+So from that processor article you'd take "8.805 GHz record" as a fact, understand that extreme cooling was needed as the concept, and then you say what that implies. That last part is where your voice comes in and where copying stops being an issue.
+The practical habit is:
+After reading a source, write one sentence summarizing what it told you. Not a quote. Just what you now know that you didn't before. Do that for each source, and by the time you start writing you're already working from your own notes, not someone else's sentences.
+The deeper point is:
+Your job isn't to report what sources say. It's to answer your reader's question using what sources gave you. That shift in mindset naturally moves you away from copying because you're focused on your reader, not the source.
+Once you have a few of those one-sentence notes, you just arrange them in an order that answers the question cleanly. That's the article.
+
+---
+Using the processor/1THz topic as the example since that's what we've been working with:
+For the hook (the extreme/record):
+
+"fastest processor ever recorded"
+"world record CPU clock speed"
+
+For the current reality (baseline):
+
+"fastest production CPU 2024"
+"highest GHz processor available today"
+
+For the obstacle (why it can't go further):
+
+"why can't CPU clock speed increase"
+"physical limits of processor speed"
+"why did CPU GHz stop increasing"
+
+For the future angle:
+
+"future of CPU speed beyond silicon"
+"terahertz processor research"
+
+
+The pattern across those searches is just three questions dressed up different ways: how far has it gone, where is it stuck, and what's next. Those three questions work for almost any technology topic you'd want to write about.
+Go try a few, see what comes up, and come back. We can work through what you find.
+
+---
+What the wikipedia article can't give you:
+Anything about clock speed limits, heat, or the 1THz question. This is a general overview article, it won't have that depth. So you need a second search specifically about clock speed limits.
+
+Your next search should be:
+
+"why did CPU clock speeds stop increasing"
+"transistor size limit Moore's law breakdown"
+
+Those will give you the meat. This Wikipedia article was just your foundation — it handed you the transistor size fact and a bit of history. That's all you needed from it.
+Come back with what those next searches give you.
+
+---
+Real research follows threads from what you've already read, not jumps to the exact answer.
+So look back at what you already have. Your notes contain terms that can lead you there naturally:
+From your own notes:
+
+"instruction pipelining" — search that, it'll lead you into CPU architecture limits
+"out-of-order execution" — same thing
+"CPI" — that page will talk about efficiency walls
+"boost clock" — that'll surface thermal throttling and why clocks can't sustain high speeds
+
+From the heat constraint quote you already have:
+
+Search "thermal throttling" — that's the specific mechanism behind why heat kills clock speed
+
+From the overclocking record:
+
+Search "why overclocking has limits" — that's a natural follow-on question from the record you already noted
+
+
+The method is: every term in your notes is a potential next search. You're not jumping to the answer, you're pulling on threads that are already in your hands.
+That's how the research actually builds — each article gives you new vocabulary, and that vocabulary becomes your next search. You never need to search the conclusion, you search the terms and let them lead you there.

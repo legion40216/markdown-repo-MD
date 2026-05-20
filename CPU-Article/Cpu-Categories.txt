@@ -1,0 +1,86 @@
+Processor technologies
+Models	
+Abstract machineStored-program computerFinite-state machine with datapathHierarchicalDeterministic finite automatonQueue automatonCellular automatonQuantum cellular automatonTuring machine Alternating Turing machineUniversalPost–TuringQuantumNondeterministic Turing machineProbabilistic Turing machineHypercomputationZeno machineBelt machineStack machineRegister machines CounterPointerRandom-accessRandom-access stored program
+Architecture	
+MicroarchitectureVon NeumannHarvard modifiedDataflowTransport-triggeredCellularEndiannessMemory access NUMAHUMALoad–storeRegister/memoryCache hierarchyMemory hierarchy Virtual memorySecondary storageHeterogeneousFabricMultiprocessingCognitiveNeuromorphic
+Instruction set
+architectures	
+Types	
+Orthogonal instruction setCISCRISCApplication-specificEDGE TRIPSVLIW EPICMISCOISCNISCZISCVISC architectureQuantum computingComparison Addressing modes
+Instruction
+sets	
+Motorola 68000 seriesVAXPDP-11x86ARMStanford MIPSMIPSMIPS-XPower POWERPowerPCPower ISAClipper architectureSPARCSuperHDEC AlphaETRAX CRISM32RUnicoreItaniumOpenRISCRISC-VMicroBlazeLMCSystem/3x0 S/360S/370S/390z/ArchitectureTilera ISAVISC architectureEpiphany architectureOthers
+Execution	
+Instruction pipelining	
+Pipeline stallOperand forwardingClassic RISC pipeline
+Hazards	
+Data dependencyStructuralControlFalse sharing
+Out-of-order	
+ScoreboardingTomasulo's algorithm Reservation stationRe-order bufferRegister renamingWide-issue
+Speculative	
+Branch predictionMemory dependence prediction
+Parallelism	
+Level	
+Bit Bit-serialWordInstructionPipelining ScalarSuperscalarTask ThreadProcessData VectorMemoryDistributed
+Multithreading	
+TemporalSimultaneous HyperthreadingSimultaneous and heterogenousSpeculativePreemptiveCooperative
+Flynn's taxonomy	
+SISDSIMD Array processing (SIMT)Pipelined processingAssociative processingSWARMISDMIMD SPMD
+Processor
+performance	
+Transistor countInstructions per cycle (IPC) Cycles per instruction (CPI)Instructions per second (IPS)Floating-point operations per second (FLOPS)Transactions per second (TPS)Synaptic updates per second (SUPS)Performance per watt (PPW)Cache performance metricsComputer performance by orders of magnitude
+Types	
+Central processing unit (CPU)Graphics processing unit (GPU) GPGPUVectorBarrelStreamTile processorCoprocessorPALASICFPGAFPOACPLDMulti-chip module (MCM)System in a package (SiP)Package on a package (PoP)
+By application	
+Embedded systemMicroprocessorMicrocontrollerMobileUltra-low-voltageASIPSoft microprocessor
+Systems
+on chip	
+System on a chip (SoC)Multiprocessor (MPSoC)Cypress PSoCNetwork on a chip (NoC)
+Hardware
+accelerators	
+CoprocessorAI acceleratorGraphics processing unit (GPU)Image processorVision processing unit (VPU)Physics processing unit (PPU)Digital signal processor (DSP)Tensor Processing Unit (TPU)Secure cryptoprocessorNetwork processorBaseband processor
+Word size	
+1-bit4-bit8-bit12-bit15-bit16-bit24-bit32-bit48-bit64-bit128-bit256-bit512-bitbit slicingothers variable
+Core count	
+Single-coreMulti-coreManycoreHeterogeneous architecture
+Components	
+CoreCache CPU cacheScratchpad memoryData cacheInstruction cachereplacement policiescoherenceBusClock rateClock signalFIFO
+Functional
+units	
+Arithmetic logic unit (ALU)Address generation unit (AGU)Floating-point unit (FPU)Memory management unit (MMU) Load–store unitTranslation lookaside buffer (TLB)Branch predictorBranch target predictorIntegrated memory controller (IMC) Memory management unitInstruction decoder
+Logic	
+CombinationalSequentialGlueLogic gate QuantumArray
+Registers	
+Processor registerStatus registerStack registerRegister fileMemory bufferMemory address registerProgram counter
+Control unit	
+Hardwired control unitInstruction unitData bufferWrite bufferMicrocodeROMCounter
+Datapath	
+MultiplexerDemultiplexerAdderMultiplier CPUBinary decoder Address decoderSum-addressed decoderBarrel shifter
+Circuitry	
+Integrated circuit 3DMixed-signalPower managementBooleanDigitalAnalogQuantumSwitch
+Power
+management	
+PMUAPMACPIDynamic frequency scalingDynamic voltage scalingClock gatingPerformance per watt (PPW)
+Related	
+History of general-purpose CPUsMicroprocessor chronologyProcessor designDigital electronicsHardware security moduleSemiconductor device fabricationTick–tock modelPin grid arrayChip carrier
+vte
+Basic computer components
+Input devices	
+Pointing devices	
+Graphics tabletGame controllerLight penMouse OpticalOptical trackpadPointing stickTouchpadTouchscreenTrackball
+Other	
+KeyboardImage scannerGraphics card GPUMicrophoneRefreshable braille displaySound card Sound chipWebcam Softcam
+Output devices	
+Monitor ScreenRefreshable braille displayPrinter PlotterSpeakersSound cardGraphics card
+Removable
+data storage	
+Disk packFloppy diskOptical disc CDDVDBlu-rayFlash memory Memory cardUSB flash drive
+Computer case	
+Central processing unit MicroprocessorMotherboardMemory RAMBIOSData storage HDDSSD (SATA / NVMe)SSHDPower supply SMPSMOSFET Power MOSFETVRMNetwork interface controllerFax modemExpansion card
+Ports	
+Current	
+EthernetUSBThunderboltAnalog audio jackDisplayPortHDMI
+Obsolete	
+FireWire (IEEE 1394)Parallel portSerial portGame portPS/2 porteSATADVIVGA
+Related	
+History of computing hardwareHistory of computing hardware (1960s–present)List of pioneers in computer science
