@@ -4,9 +4,8 @@
 
 ---
 
-## What Even Is a Framework?
-
-**Node.js** is not a framework — it's a *runtime*. It lets JavaScript run outside the browser, on a server. Think of it as the engine. A framework is what you build on top of that engine — it gives you pre-written tools, structure, and patterns so you're not reinventing the wheel every project.
+## What Even Is a Web Framework?
+ A framework is what you build on top of  — it gives you pre-written tools, structure, and patterns so you're not reinventing the wheel every project.
 
 The same concept applies across languages: Python has Django and Flask, Java has Spring Boot, PHP has Laravel. Same idea, different worlds.
 
@@ -46,6 +45,7 @@ app.listen(3000);
 That's a working web server. Clean, readable, no ceremony. This simplicity is exactly why it's lasted so long.
 
 **Good for:** REST APIs, SPAs backends, learning server-side JS, rapid prototyping.
+
 **Jump to it when:** You want full control, a huge ecosystem of middleware, and a framework with a decade of Stack Overflow answers behind it.
 
 ---
@@ -67,6 +67,7 @@ fastify.listen({ port: 3000 });
 The `async/await` approach feels modern, and returning an object automatically serializes it to JSON.
 
 **Good for:** High-performance APIs, microservices, projects where response time matters.
+
 **Jump to it when:** You know Express already and want something faster and more structured without going full enterprise.
 
 ---
@@ -90,6 +91,7 @@ export class UsersController {
 The decorator `@Controller('users')` says "this handles `/users` routes." `@Get()` maps to GET requests. The service is injected automatically — you never manually `require` it.
 
 **Good for:** Enterprise apps, SaaS platforms, microservices, real-time apps, teams that need consistency.
+
 **Jump to it when:** You're building something that will grow, needs to be maintained by a team, and needs TypeScript throughout.
 
 ---
@@ -116,6 +118,7 @@ app.listen(3000);
 ```
 
 **Good for:** APIs, microservices, developers who want total control and modern async code.
+
 **Jump to it when:** You find Express's older callback patterns frustrating and want a cleaner minimal core.
 
 ---
@@ -136,6 +139,7 @@ export default app;
 This same file deploys to Cloudflare Workers globally with no changes.
 
 **Good for:** Edge-deployed APIs, serverless functions, cross-runtime projects.
+
 **Jump to it when:** You're deploying to Cloudflare Workers or want one framework that runs everywhere.
 
 ---
@@ -153,6 +157,7 @@ const app = new Elysia()
 ```
 
 **Good for:** Bun-powered APIs, projects needing maximum performance and type safety across the stack.
+
 **Jump to it when:** You're already using Bun and want bleeding-edge performance.
 
 ---
@@ -162,6 +167,7 @@ const app = new Elysia()
 **Configuration over everything.** Hapi is a framework used at companies like Walmart. It doesn't use external middleware for core features — validation, authentication, and caching are all built in and configured through a rich options object, not middleware chains.
 
 **Good for:** Large enterprise APIs where every feature needs explicit, auditable configuration.
+
 **Jump to it when:** You need a highly configurable, security-focused framework for a big team.
 
 ---
@@ -171,6 +177,7 @@ const app = new Elysia()
 **Express, stripped to the bone, for microservices only.** Restify removes all browser-facing features from Express and focuses purely on HTTP APIs with minimal overhead. Used by Netflix and npm itself.
 
 **Good for:** Internal microservices, API gateways, services where you'll never serve HTML.
+
 **Jump to it when:** You need raw API performance and don't care about anything beyond JSON over HTTP.
 
 ---
@@ -220,6 +227,7 @@ export async function GET() {
 A file in the `app` folder becomes a route automatically. No router config needed.
 
 **Good for:** Production React apps, e-commerce, blogs, dashboards, anything that needs SEO.
+
 **Jump to it when:** You're building a React app that needs to be public, fast, and indexable by search engines.
 
 ---
@@ -229,6 +237,7 @@ A file in the `app` folder becomes a route automatically. No router config neede
 **Next.js, but for Vue.** Same concept — takes Vue.js and adds file-based routing, SSR, SSG, and a module system. If you prefer Vue's syntax over React's, Nuxt is the production-ready wrapper around it.
 
 **Good for:** Vue-based production apps, content sites, dashboards.
+
 **Jump to it when:** You like Vue's template syntax and want the same batteries-included experience as Next.js.
 
 ---
@@ -253,6 +262,7 @@ const posts = await fetch('/api/posts').then(r => r.json());
 The `---` block is server-only. Zero JavaScript is sent to the browser by default.
 
 **Good for:** Blogs, documentation sites, marketing pages, content-heavy sites where performance is critical.
+
 **Jump to it when:** You're building a content site and don't want to ship a full React bundle just to display text.
 
 ---
@@ -262,6 +272,7 @@ The `---` block is server-only. Zero JavaScript is sent to the browser by defaul
 **Convention over configuration, taken seriously.** Ember was the original "opinionated" JavaScript framework. It has its own data layer (Ember Data), its own router, and a CLI. It's less used than React/Vue but still maintained and popular in certain enterprise and government circles.
 
 **Good for:** Large, complex single-page applications where consistent conventions matter.
+
 **Jump to it when:** You're joining a team already using it, or building a very large SPA with complex data relationships.
 
 ---
@@ -296,6 +307,7 @@ Route.post('/login', async ({ request, auth, response }) => {
 ```
 
 **Good for:** Full-stack web apps, developers coming from a PHP/Laravel background who want to stay in TypeScript.
+
 **Jump to it when:** You want the "everything works together" feeling of Laravel without leaving JavaScript.
 
 ---
@@ -313,6 +325,7 @@ Route.post('/login', async ({ request, auth, response }) => {
 **Real-time, full-stack, one language.** Meteor runs the same JavaScript on the client and server and syncs data in real-time automatically. It was revolutionary in 2012, but its all-in-one nature has made it harder to adopt incrementally.
 
 **Good for:** Real-time collaborative apps, prototypes, apps where data sync across clients is the core feature.
+
 **Jump to it when:** You're building a live, multi-user app and want real-time as a first-class feature.
 
 ---

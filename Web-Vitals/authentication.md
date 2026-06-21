@@ -186,6 +186,15 @@ For cross-origin, server must also respond with:
 | Secure        | Only sent over HTTPS                  |
 | SameSite=Lax  | Blocks cross-site CSRF attacks        |
 
+--- What cookies do NOT do ---
+Cookies automatically carry the token — they do not protect routes.
+The browser attaching a cookie to a request proves nothing on its own.
+Protection requires middleware that reads the cookie and makes a decision.
+
+Cookie  = the delivery mechanism  → gets the token to the server
+Middleware = the gatekeeper       → decides what to do with it
+
+These are distinct jobs. A route is only protected when both are in place.
 
 
 ## The Multi-Step Journey Problem
