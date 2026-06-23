@@ -185,41 +185,6 @@ Patterns like **Dependency Injection** keep these layers decoupled and testable,
 
 ---
 
-## Two Kinds of Backend Frameworks
-
-Not all backend frameworks are the same. They fall on a spectrum from lean and minimal to fully loaded.
-
-Backend Framework Landscape
-Minimal / API Frameworks
-Handles routing, middleware, and request/response — nothing else. You wire in every other piece yourself.
-Examples: Express.js, FastAPI, Flask, Hono.js
-```
-Express.js
-├── Routing ✓
-├── Middleware ✓
-└── Request/Response handling ✓
-
-You add:
-├── Prisma     → ORM & database access
-├── Passport   → Authentication
-├── BullMQ     → Background job queues
-├── Multer     → File uploads
-└── Redis      → Caching
-```
-Maximum flexibility, but more upfront decisions and assembly work.
-
-Full Backend Frameworks
-Comes with an ORM, migration system, authentication, authorization, background jobs, email, file storage, and caching — all pre-integrated and opinionated about how they fit together. These run entirely on the server.
-Examples: Laravel (PHP), Django (Python), Ruby on Rails, NestJS (Node.js)
-
----
-
-## The Shift Toward API-Only Backends
-
-Historically, backends rendered the HTML pages users saw. Today that's changed. A frontend framework like **React** or **Vue** handles all UI rendering in the browser, and the backend becomes a pure **API provider** — sending JSON, not HTML.
-
-This means even teams using powerful full frameworks like Django or Laravel may use them purely as API backends, with a separate React frontend consuming the data.
-
 > Even when a backend *only* serves JSON, it is still handling authentication, authorization, database management, background jobs, security, and caching. The API surface is just the visible tip of a large iceberg.
 
 ---
